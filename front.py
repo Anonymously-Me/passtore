@@ -5,8 +5,8 @@ def loginpage():
                     title="passtore",fields=('Username', 'Password'))
 
 class Menu:
-    def __init__(self):
-        self.a = easygui.choicebox(msg='Choose an option', title='passtore', 
+    def main(self):
+        return easygui.choicebox(msg='Choose an option', title='passtore', 
                 choices=['Add Password', 'View Password(s)', 'Change Master Password', 'About'])
     
     def auth(self):
