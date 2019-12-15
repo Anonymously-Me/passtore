@@ -8,7 +8,7 @@ if __name__=='__main__':
         b = Menu()
         if a[0]=='' and a[1]=='':
             c = signuppage()
-            a[0], a[1] = c[0], c[2]
+            a[0], a[1] = c[0], c[1]
             file[a[0]]=a[1]
         elif a[0] in file and a[1]==file[a[0]]: pass
         else: continue
