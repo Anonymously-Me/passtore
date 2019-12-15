@@ -5,7 +5,7 @@ def loginpage():
                     title="passtore",fields=('Username', 'Password'))
 def signuppage():
     return easygui.multpasswordbox(msg="SIGNUP", 
-                    title="passtore",fields=('Username', 'Email' , 'Password'))
+                    title="passtore",fields=('Username' , 'Password'))
 
 class Menu:
     def main(self):
